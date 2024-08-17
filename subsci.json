@@ -1,0 +1,729 @@
+[
+  {
+    "subject_id": 1,
+    "subject_name": "الأمن معلومات",
+    "subject_code": "CS340",
+    "subject_department": "قسم علوم الحاسوب",
+    "final": {
+      "date": "2024-07-23",
+      "period": 7
+  },
+    "groups": [
+      {
+        "group_code": "A",
+        "professor": "د.فردوس الجدي",
+        "lectures": [
+          {
+            "day": "السبت",
+            "start_time": "8:00",
+            "end_time": "10:00",
+            "room": "(معمل 2)"
+          },
+          {
+            "day": "الأثنين",
+            "start_time": "8:00",
+            "end_time": "10:00",
+            "room": "(معمل 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "subject_id": 2,
+    "subject_name": "برمجة بلغة الاسمبلي",
+    "subject_code": "CS211",
+    "subject_department": "قسم علوم الحاسوب",
+    "final": {
+      "date": "2024-07-24",
+      "period": 9
+    },
+    "groups": [
+      {
+        "group_code": "A",
+        "professor": "د.فردوس الجدي",
+        "lectures": [
+          {
+            "day": "السبت",
+            "start_time": "10:00",
+            "end_time": "13:00",
+            "room": "(معمل 1)"
+          },
+          {
+            "day": "السبت",
+            "start_time": "13:00",
+            "end_time": "16:00",
+            "room": "(معمل 1)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "subject_id": 3,
+    "subject_name": "هندسة برمجيات",
+    "subject_code": "CS438",
+    "subject_department": "قسم علوم الحاسوب ",
+    "final": {
+      "date": "2024-07-25",
+      "period": 1
+    },
+    "groups": [
+      {
+        "group_code": "A",
+        "professor": "د. علي أبوراس",
+        "lectures": [
+          {
+            "day": "السبت",
+            "start_time": "10:00",
+            "end_time": "12:00",
+            "room": "(مدرج 70)"
+          },
+          {
+            "day": "الأثنين",
+            "start_time": "10:00",
+            "end_time": "12:00",
+            "room": "(قاعة 2 - 5)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "subject_id": 4,
+    "subject_name": "التعلم الالي",
+    "subject_code": "CS461",
+    "subject_department": "قسم علوم الحاسوب ",
+    "final": {
+      "date": "2024-07-26",
+      "period": 5
+    },
+    "groups": [
+      {
+        "group_code": "A",
+        "professor": "د. علي أبوراس",
+        "lectures": [
+          {
+            "day": "السبت",
+            "start_time": "12:00",
+            "end_time": "15:00",
+            "room": "(معمل 2)"
+          },
+          {
+            "day": "الأثنين",
+            "start_time": "12:00",
+            "end_time": "14:00",
+            "room": "(معمل 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "subject_id": 5,
+    "subject_name": "تركيبات متقطعة",
+    "subject_code": "CS200",
+    "subject_department": "قسم علوم الحاسوب ",
+    "final": {
+      "date": "2024-07-28",
+      "period": 6
+    },
+    "groups": [
+      {
+        "group_code": "A",
+        "professor": "د. عدنان محمود الشريف",
+        "lectures": [
+          {
+            "day": "الاحد",
+            "start_time": "8:00",
+            "end_time": "10:00",
+            "room": "(مدرج 70)"
+          },
+          {
+            "day": "الثلاثاء",
+            "start_time": "10:00",
+            "end_time": "12:00",
+            "room": "(مدرج 70)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "subject_id": 6,
+    "subject_name": "نظرية الاتمتة واللغات الصيغية",
+    "subject_code": "CS241/CS441",
+    "subject_department": "قسم علوم الحاسوب ",
+    "final": {
+      "date": "2024-07-29",
+      "period": 8
+    },
+    "groups": [
+      {
+        "group_code": "A",
+        "professor": "د. عدنان محمود الشريف",
+        "lectures": [
+          {
+            "day": "الاحد",
+            "start_time": "10:00",
+            "end_time": "12:00",
+            "room": "(مدرج 70)"
+          },
+          {
+            "day": "الثلاثاء",
+            "start_time": "8:00",
+            "end_time": "10:00",
+            "room": "(مدرج 70)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "subject_id": 7,
+    "subject_name": "برمجة حاسوب 2",
+    "subject_code": "CS113",
+    "subject_department": "قسم علوم الحاسوب ",
+    "final": {
+      "date": "2024-07-30",
+      "period": 9
+    },
+    "groups": [
+      {
+        "group_code": "A",
+        "professor": "د. علي علي أبوراس",
+        "lectures": [
+          {
+            "day": "الاحد",
+            "start_time": "8:00",
+            "end_time": "10:00",
+            "room": "(مدرج 3)"
+          }
+
+        ]
+      },
+      {
+        "group_code": "B",
+        "professor": "أ. اكرم علي ميلاد",
+        "lectures": [
+          {
+            "day": "الأربعاء",
+            "start_time": "8:00",
+            "end_time": "10:00",
+            "room": "(مدرج 70)"
+          }
+
+        ]
+      },
+      {
+        "group_code": "C",
+        "professor": "أ. حسين سليمان البوعائشي",
+        "lectures": [
+          {
+            "day": "الأربعاء",
+            "start_time": "10:00",
+            "end_time": "12:00",
+            "room": "(مدرج 70)"
+          }
+
+        ]
+      }
+    ]
+  },
+  {
+    "subject_id": 8,
+    "subject_name": "طرق عددية ",
+    "subject_code": "CS223",
+    "subject_department": "قسم علوم الحاسوب",
+    "final": {
+      "date": "2024-08-01",
+      "period": 10
+  },
+    "groups": [
+      {
+        "group_code": "A",
+        "professor": "أ. وفاء محمد صالح",
+        "lectures": [
+          {
+            "day": "الاحد",
+            "start_time": "12:00",
+            "end_time": "14:00",
+            "room": "(قاعة 2-7)"
+          },
+          {
+            "day": "الثلاثاء",
+            "start_time": "12:00",
+            "end_time": "14:00",
+            "room": "(قاعة 2-7)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "subject_id": 9,
+    "subject_name": "شبكات الحاسب الألي",
+    "subject_code": "CS443",
+    "subject_department": "قسم علوم الحاسوب",
+    "final": {
+      "date": "2024-08-02",
+      "period": 11
+  },
+    "groups": [
+      {
+        "group_code": "A",
+        "professor": "أ. وفاء محمد صالح",
+        "lectures": [
+          {
+            "day": "الاحد",
+            "start_time": "14:00",
+            "end_time": "16:00",
+            "room": "(قاعة 2-7)"
+          },
+          {
+            "day": "الخميس",
+            "start_time": "14:00",
+            "end_time": "16:00",
+            "room": "(قاعة 2-7)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "subject_id": 10,
+    "subject_name": "برمجة نظم",
+    "subject_code": "CS431",
+    "subject_department": "قسم علوم الحاسوب",
+    "final": {
+      "date": "2024-08-03",
+      "period": 12
+  },
+    "groups": [
+      {
+        "group_code": "A",
+        "professor": "د. عبدالحفيظ الصديق الشويهدي",
+        "lectures": [
+          {
+            "day": "الاحد",
+            "start_time": "8:00",
+            "end_time": "10:00",
+            "room": "(معمل الحاسب الآلي رقم 4)"
+          },
+          {
+            "day": "الأربعاء",
+            "start_time": "8:00",
+            "end_time": "10:00",
+            "room": "(معمل الحاسب الآلي رقم 4)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "subject_id": 11,
+    "subject_name": "هياكل بيانات وخوارزميات 1",
+    "subject_code": "CS331",
+    "subject_department": "قسم علوم الحاسوب",
+    "final": {
+      "date": "2024-08-04",
+      "period": 13
+  },
+    "groups": [
+      {
+        "group_code": "A",
+        "professor": "أ. رنيم حسن نشنوش",
+        "lectures": [
+          {
+            "day": "الاحد",
+            "start_time": "10:00",
+            "end_time": "12:00",
+            "room": "(قاعة 2-5)"
+          },
+          {
+            "day": "الثلاثاء",
+            "start_time": "10:00",
+            "end_time": "12:00",
+            "room": "(قاعة 2-5)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "subject_id": 12,
+    "subject_name": "هياكل بيانات وخوارزميات 2",
+    "subject_code": "CS332",
+    "subject_department": "قسم علوم الحاسوب",
+    "final": {
+      "date": "2024-08-05",
+      "period": 14
+  },
+    "groups": [
+      {
+        "group_code": "A",
+        "professor": "أ. رنيم حسن نشنوش",
+        "lectures": [
+          {
+            "day": "الاحد",
+            "start_time": "12:00",
+            "end_time": "14:00",
+            "room": "(قاعة 2-5)"
+          },
+          {
+            "day": "الأربعاء",
+            "start_time": "12:00",
+            "end_time": "14:00",
+            "room": "(قاعة 2-5)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "subject_id": 13,
+    "subject_name": "برمجة الويب",
+    "subject_code": "CS315",
+    "subject_department": "قسم علوم الحاسوب",
+    "final": {
+      "date": "2024-08-06",
+      "period": 15
+  },
+    "groups": [
+      {
+        "group_code": "A",
+        "professor": "د. اميمه عبدالوهاب الشلي",
+        "lectures": [
+          {
+            "day": "الاحد",
+            "start_time": "8:00",
+            "end_time": "10:00",
+            "room": "(معمل الحاسب الآلي رقم 1)"
+          },
+          {
+            "day": "الأربعاء",
+            "start_time": "8:00",
+            "end_time": "11:00",
+            "room": "(معمل الحاسب الآلي رقم 1)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "subject_id": 14,
+    "subject_name": "برمجة بلغة ++c",
+    "subject_code": "CS115/CS214",
+    "subject_department": "قسم علوم الحاسوب",
+    "final": {
+      "date": "2024-08-07",
+      "period": 16
+  },
+    "groups": [
+      {
+        "group_code": "A",
+        "professor": "د. اميمه عبدالوهاب الشلي",
+        "lectures": [
+          {
+            "day": "الأثنين",
+            "start_time": "8:00",
+            "end_time": "10:00",
+            "room": "(مدرج 70)"
+          },
+          {
+            "day": "الثلاثاء",
+            "start_time": "8:00",
+            "end_time": "11:00",
+            "room": "(معمل الحاسب الآلي رقم 1)"
+          },
+          {
+            "day": "الثلاثاء",
+            "start_time": "11:00",
+            "end_time": "14:00",
+            "room": "(معمل الحاسب الآلي رقم 1)"
+          }
+        ]
+      },
+      {
+        "group_code": "B",
+        "professor": "أ.عبدالسلام المرغني",
+        "lectures": [
+          {
+            "day": "الأثنين",
+            "start_time": "10:00",
+            "end_time": "12:00",
+            "room": "(معمل الحاسب الآلي رقم 1)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "subject_id": 15,
+    "subject_name": "مقدمة في علم الحاسوب",
+    "subject_code": "CS102/CS100",
+    "subject_department": "قسم علوم الحاسوب",
+    "final": {
+      "date": "2024-08-07",
+      "period": 16
+  },
+    "groups": [
+      {
+        "group_code": "A",
+        "professor": "أ. زينب احمد احمد",
+        "lectures": [
+          {
+            "day": "الأثنين",
+            "start_time": "10:00",
+            "end_time": "12:00",
+            "room": "(مدرج 70)"
+          }
+
+        ]
+      },
+      {
+        "group_code": "B",
+        "professor": "أ. حسين رجب قنود",
+        "lectures": [
+          {
+            "day": "الأثنين",
+            "start_time": "12:00",
+            "end_time": "14:00",
+            "room": "(مدرج 70)"
+          }
+
+        ]
+      }
+    ]
+  },
+  {
+    "subject_id": 16,
+    "subject_name": "جبر الخطي",
+    "subject_code": "MA206/MA202/200MM",
+    "subject_department": "قسم الرياضيات",
+    "final": {
+      "date": "2024-08-08",
+      "period": 17
+  },
+    "groups": [
+      {
+        "group_code": "A",
+        "professor": "أ.مريم برباش",
+        "lectures": [
+          {
+            "day": "الأثنين",
+            "start_time": "10:00",
+            "end_time": "12:00",
+            "room": "(قاعة 3 - 13)"
+          },
+          {
+            "day": "الثلاثاء",
+            "start_time": "9:00",
+            "end_time": "10:00",
+            "room": "(قاعة 3 - 13)"
+          },
+          {
+            "day": "الخميس",
+            "start_time": "10:00",
+            "end_time": "12:00",
+            "room": "(قاعة 3 - 13)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "subject_id": 17,
+    "subject_name": "برمجة بلغة الفورتران",
+    "subject_code": "CS111/CS110",
+    "subject_department": "قسم علوم الحاسوب",
+    "final": {
+      "date": "2024-08-09",
+      "period": 18
+  },
+    "groups": [
+      {
+        "group_code": "A",
+        "professor": "أ. زينب احمد احمد",
+        "lectures": [
+          {
+            "day": "الأثنين",
+            "start_time": "8:00",
+            "end_time": "11:00",
+            "room": "(معمل 5)"
+          },
+          {
+            "day": "الأربعاء",
+            "start_time": "10:00",
+            "end_time": "12:00",
+            "room": "(معمل 5)"
+          }
+
+        ]
+      }
+    ]
+  },
+  {
+    "subject_id": 18,
+    "subject_name": "الدوائر الرقمية والالكترونية",
+    "subject_code": "PH200",
+    "subject_department": "قسم الفيزياء",
+    "final": {
+      "date": "2024-08-10",
+      "period": 19
+    },
+    "groups": [
+      {
+        "group_code": "A",
+        "professor": "أ.محمدعمر حمزة",
+        "lectures": [
+          {
+            "day": "الثلاثاء",
+            "start_time": "10:00",
+            "end_time": "12:00",
+            "room": "(قاعة 49)"
+          },
+          {
+            "day": "الخميس",
+            "start_time": "10:00",
+            "end_time": "11:00",
+            "room": "(قاعة 49)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "subject_id": 19,
+    "subject_name": "قواعد البيانات",
+    "subject_code": "CS436",
+    "subject_department": "قسم علوم الحاسوب",
+    "final": {
+      "date": "2024-08-11",
+      "period": 20
+    },
+    "groups": [
+      {
+        "group_code": "A",
+        "professor": "أ. حسين سليمان البوعائشي",
+        "lectures": [
+          {
+            "day": "الثلاثاء",
+            "start_time": "12:00",
+            "end_time": "14:00",
+            "room": "(مدرج 70)"
+          },
+          {
+            "day": "الخميس",
+            "start_time": "8:00",
+            "end_time": "10:00",
+            "room": "(مدرج 70)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "subject_id": 20,
+    "subject_name": "تحليل عددي 2",
+    "subject_code": "CS322",
+    "subject_department": "قسم علوم الحاسوب",
+    "final": {
+      "date": "2024-08-12",
+      "period": 21
+    },
+    "groups": [
+      {
+        "group_code": "A",
+        "professor": "أ. وفاء محمد صالح",
+        "lectures": [
+          {
+            "day": "الثلاثاء",
+            "start_time": "14:00",
+            "end_time": "16:00",
+            "room": "(قاعة 2-7)"
+          },
+          {
+            "day": "الخميس",
+            "start_time": "12:00",
+            "end_time": "14:00",
+            "room": "(قاعة 2-7)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "subject_id": 21,
+    "subject_name": "البرمجة الشيئية بلغة ++c",
+    "subject_code": "CS215",
+    "subject_department": "قسم علوم الحاسوب",
+    "final": {
+      "date": "2024-07-24",
+      "period": 21
+  },
+    "groups": [
+      {
+        "group_code": "A",
+        "professor": "أ. عبدالسلام المرغني",
+        "lectures": [
+          {
+            "day": "الأربعاء",
+            "start_time": "10:00",
+            "end_time": "12:00",
+            "room": "(قاعة 2-7)"
+          },
+          {
+            "day": "الخميس",
+            "start_time": "8:00",
+            "end_time": "11:00",
+            "room": "(معمل 1)"
+          },
+          {
+            "day": "الخميس",
+            "start_time": "11:00",
+            "end_time": "14:00",
+            "room": "(معمل 1)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "subject_id": 22,
+    "subject_name": "نظم تشغيل",
+    "subject_code": "CS437",
+    "subject_department": "قسم علوم الحاسوب",
+    "final": {
+      "date": "2024-07-25",
+      "period": 23
+  },
+    "groups": [
+      {
+        "group_code": "A",
+        "professor": "أ. حسين سليمان البوعائشي",
+        "lectures": [
+          {
+            "day": "الأربعاء",
+            "start_time": "12:00",
+            "end_time": "14:00",
+            "room": "(مدرج 70)"
+          },
+          {
+            "day": "الخميس",
+            "start_time": "10:00",
+            "end_time": "12:00",
+            "room": "(مدرج 70)"
+          }
+        ]
+      }
+    ]
+  }
+
+
+
+
+
+
+
+]
