@@ -3,7 +3,7 @@ import json
 from datetime import datetime
 
 # Load the existing JSON file with the correct encoding
-with open("C:\\Users\\seyf2\\PycharmProjects\\pythonProject1\\imagetojson\\test.json", "r", encoding="utf-8") as file:
+with open("subsci.json", "r", encoding="utf-8") as file:
     data = json.load(file)
 
 st.title("Subject Management App - Add or Edit Subject")
