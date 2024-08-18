@@ -2,13 +2,11 @@ import streamlit as st
 import json
 from datetime import datetime
 
-# Load the existing JSON file with the correct encoding
 with open("subsci.json", "r", encoding="utf-8") as file:
     data = json.load(file)
 
 st.title("Subject Management App - Add or Edit Subject")
 
-# Select the subject to edit or create a new one
 subject_codes = [subject['subject_code'] for subject in data]
 selected_subject_code = st.selectbox("Select Subject Code to Edit or Create New", ["Create New"] + subject_codes)
 
@@ -16,12 +14,11 @@ if selected_subject_code != "Create New":
     subject_to_edit = next((subject for subject in data if subject['subject_code'] == selected_subject_code), None)
     subject_id = st.text_input("Subject ID", value=subject_to_edit['subject_id'])
     subject_name = st.text_input("Subject Name", value=subject_to_edit['subject_name'])
-    subject_code = selected_subject_code  # Keep the original subject code
+    subject_code = selected_subject_code  
     subject_department = st.text_input("Subject Department", value=subject_to_edit['subject_department'])
     final_date = st.date_input("Final Exam Date", value=datetime.strptime(subject_to_edit['final']['date'], "%Y-%m-%d"))
     final_period = st.number_input("Final Exam Period", value=subject_to_edit['final']['period'], min_value=1)
 
-    # Load existing groups and lectures
     group_codes = subject_to_edit['groups']
 else:
     # Fields for a new subject
@@ -32,10 +29,8 @@ else:
     final_date = st.date_input("Final Exam Date")
     final_period = st.number_input("Final Exam Period", min_value=1)
 
-    # Initialize new groups and lectures
     group_codes = []
 
-# Input for groups and lectures
 st.subheader("Add/Edit Groups and Lectures")
 group_code = st.text_input("Group Code")
 professor = st.text_input("Professor")
@@ -44,7 +39,6 @@ start_time = st.time_input("Lecture Start Time")
 end_time = st.time_input("Lecture End Time")
 room = st.text_input("Lecture Room")
 
-# Temporary storage for lectures
 if 'lectures' not in st.session_state:
     st.session_state.lectures = []
 
@@ -67,12 +61,12 @@ if st.button("Add Group"):
             "professor": professor,
             "lectures": st.session_state.lectures
         })
-        st.session_state.lectures = []  # Clear lectures for the next group
+        st.session_state.lectures = []  
         st.success("Group added successfully!")
     else:
         st.error("Please enter both group code and professor details.")
 
-# Save the subject with groups and lectures
+
 if st.button("Save Subject"):
     new_subject = {
         "subject_id": subject_id,
@@ -97,15 +91,12 @@ if st.button("Save Subject"):
         else:
             st.error("Subject not found. Please try again.")
 
-    # Save the updated data back to the JSON file
-    with open("C:\\Users\\seyf2\\PycharmProjects\\pythonProject1\\imagetojson\\test.json", "w", encoding="utf-8") as file:
+    with open("subsci.json", "w", encoding="utf-8") as file:
         json.dump(data, file, indent=4, ensure_ascii=False)
 
-# Display the current subjects
 st.subheader("Current Subjects")
 st.json(data)
 
-# Button to download the updated JSON file
 st.download_button(
     label="Download JSON",
     data=json.dumps(data, indent=4, ensure_ascii=False),
